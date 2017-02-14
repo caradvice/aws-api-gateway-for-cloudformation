@@ -1,11 +1,11 @@
 {
   "name": "AWS-APIGateway-for-CloudFormation",
-  "version": "2.0.1",
-  "description": "AWS Api Gateway CloudFormation",
+  "version": "2.0.2",
+  "description": "AWS Api Gateway CloudFormation forked for CarAdvice from https://github.com/carlnordenfelt/aws-api-gateway-for-cloudformation",
   "author": "carl@nordenfelt.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/carlnordenfelt/aws-api-gateway-for-cloudformation"
+    "url": "https://github.com/caradvice/aws-api-gateway-for-cloudformation"
   },
   "license": "MIT",
   "dependencies": {
@@ -29,6 +29,7 @@
     "sinon": "1.17.4"
   },
   "contributors": [
+    "jordie.bodlay@caradvice.com.au",
     "carl@bynordenfelt.se"
   ]
 }

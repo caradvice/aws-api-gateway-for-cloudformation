@@ -148,7 +148,7 @@ describe('ApiDomainNameEvent', function () {
             };
             var patchOperations = testSubject.getPatchOperations(event);
             expect(patchOperations).to.be.an('Array');
-            expect(patchOperations.length).to.equal(5);
+            expect(patchOperations.length).to.equal(2);
             done();
         });
     });
